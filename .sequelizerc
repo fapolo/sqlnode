@@ -1,5 +1,8 @@
 const path = require("path");
 
 module.exports = {
+  url:
+    "postgres://pzldoazr:vIkhim9E-B9zCKWe7FGVTNt9MVByLAQm@tuffi.db.elephantsql.com:5432/pzldoazr",
+  config: path.resolve(__dirname, "src", "config", "database.js"),
   "migrations-path": path.resolve(__dirname, "src", "database", "migrations")
 };
